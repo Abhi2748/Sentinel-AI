@@ -1,0 +1,45 @@
+# Sentinel-AI 2.0 Project Rules
+project_type: ai_orchestration_platform
+target_language: python@3.11
+framework: fastapi
+frontend: react@18
+
+# Core Architecture
+architecture: microservices
+database: postgresql
+cache: redis
+async: true
+
+# Development Standards
+code_style: clean_architecture
+typing: strict
+testing: pytest
+docs: google_style
+
+# AI Model Integration
+providers: [openai, anthropic, groq, local]
+routing_engine: intelligent_complexity_based
+caching_strategy: three_tier
+
+# Key Requirements
+- Maintain 75% cost reduction goal
+- Ensure 99.9% uptime with circuit breakers
+- Implement comprehensive audit trails
+- Follow original feature specifications exactly
+- Use budget controller with hierarchical limits
+- Implement prompt optimization for token reduction
+
+# Code Generation Preferences
+- Always use async/await for I/O operations
+- Implement proper error handling and logging
+- Add type hints to all functions
+- Create tests alongside implementation
+- Follow repository pattern for data access
+- Use dependency injection
+
+# Security Requirements
+- API key authentication
+- Input validation on all endpoints
+- Never log sensitive data
+- Implement rate limiting
+- Use encryption for data at rest and transit
